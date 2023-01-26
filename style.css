@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100vh;
+}
+header {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 10%;
+    background-color: gray;
+}
+main {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 80%;
+}
+footer {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 10%;
+    background-color: grey;
+
+}
