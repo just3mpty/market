@@ -1,0 +1,87 @@
+@import "./styles/normalize\ css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", verdana;
+  background: #e8eddf;
+}
+img[src="./assets/img/icons/store_FILL0_wght400_GRAD0_opsz48.svg"] {
+  filter: invert(1);
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #242423;
+  color: whitesmoke;
+  padding: 0 1.5em;
+}
+main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: justify;
+  height: 100%;
+}
+button {
+  border: 2px solid blue;
+}
+section {
+  width: 40%;
+  margin: 1.5em;
+  border: 1px solid red;
+}
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 40%;
+  margin: 1.5em;
+  border: 1px solid green;
+}
+h3 {
+  width: 100%;
+  text-align: center;
+  color: purple;
+}
+figure {
+  text-align: center;
+  margin: 0;
+  border: 1px solid yellow;
+  width: 75%;
+}
+img[src="./assets/img/keyboard.webp"] {
+  width: 20vw;
+}
+h4 {
+  width: 100%;
+  text-align: center;
+  border: 1px solid blue;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: whitesmoke;
+  background: #242423;
+}
+@media screen and (max-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+  section {
+    width: 75%;
+  }
+  article {
+    width: 75%;
+  }
+  img {
+    width: 30vw;
+  }
+}

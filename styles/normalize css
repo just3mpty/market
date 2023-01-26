@@ -1,4 +1,4 @@
-Skip to content
+/* Skip to content
 Search or jump to…
 Pull requests
 Issues
@@ -27,7 +27,7 @@ Latest commit fc091cc on Nov 5, 2018
  History
  23 contributors
 @necolas@jonathantneal@battaglr@mattbrundage@hudochenkov@slavanga@JohnAlbin@fritx@tjvantoll@tdhooper@4refael@patrickhlauke
-349 lines (275 sloc)  5.99 KB
+349 lines (275 sloc)  5.99 KB */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
