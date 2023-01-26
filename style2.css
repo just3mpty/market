@@ -49,9 +49,16 @@ aside {
   border: 1px solid blue;
 }
 section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40%;
   margin: 1.5em;
-  border: 1px solid red;
+  padding: 1.5em;
+  height: 15em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2em;
 }
 article {
   display: flex;
@@ -60,7 +67,6 @@ article {
   width: 40%;
   margin: 1.5em;
   border-radius: 10px;
-  /* box-shadow: 0 2px 5px hsla(120, 2%, 20%, 0.5); */
 }
 h3 {
   font-size: 2em;
@@ -75,6 +81,16 @@ figure {
   font-size: 0.8em;
   font-weight: bold;
   width: 75%;
+  transition: 1s;
+  animation: appear 1s cubic-bezier(0.29, 0.79, 0.31, 0.2);
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 img[src="./assets/img/keyboard.webp"] {
   width: 20vw;
