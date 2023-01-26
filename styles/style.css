@@ -5,27 +5,28 @@ body {
   font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
-  width: auto;
-  height: 100vh;
+  height: auto;
+  background: #edede9;
 }
 header {
   display: flex;
   flex-direction: row wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0;
-  padding: 0;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
   width: auto;
-  height: 10%;
-  background-color: gray;
+  height: 15vh;
+  background-color: #d6ccc2;
 }
 main {
   display: flex;
   flex-direction: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: auto;
-  height: 80%;
+  height: 80vh;
 }
 footer {
   display: flex;
@@ -35,9 +36,33 @@ footer {
   margin: 0;
   padding: 0;
   width: auto;
-  height: 10%;
-  background-color: grey;
+  height: 5vh;
+  background-color: #d5bdaf;
 }
+
 .card {
   border: 2px solid red;
+  width: 25%;
+  height: 50vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+img[src="../assets/img/keyboard.webp"] {
+  width: 12vw;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px hsla(0, 0%, 24%, 0.451);
+}
+.description {
+  /* border: 2px solid blue; */
+  border-radius: 25px;
+  box-shadow: 2px 2px 6px hsla(0, 0%, 24%, 0.451);
+  width: 25%;
+  height: fit-content;
+  text-align: center;
+  padding: 1em;
+  font-weight: bold;
+  line-height: 1.8em;
+  background: #d6ccc2;
 }
