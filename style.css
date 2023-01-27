@@ -13,13 +13,13 @@ body {
   background: url(./assets/img/background.webp) center/cover;
 }
 #logo {
-  filter: invert(1);
+  width: 3em;
   transition: 0.4s;
-  animation: 1s rotation cubic-bezier(0.29, 0.79, 0.31, 0.2);
+  animation: 1s rotation cubic-bezier(0.17, 0.67, 0.83, 0.44);
 }
 @keyframes rotation {
   from {
-    transform: rotate(0deg);
+    transform: rotate(-360deg);
   }
   to {
     transform: rotate(360deg);
@@ -29,9 +29,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
   background: #242423;
+  box-shadow: 0 2px 6px #242423;
   color: whitesmoke;
   padding: 0 1.5em;
+  z-index: 1;
 }
 header nav[itemprop="breadcrump"] {
   width: 50%;
@@ -58,6 +62,7 @@ footer {
   padding-bottom: 0.5em;
   color: whitesmoke;
   background: #242423;
+  box-shadow: 0 -2px 6px #242423;
 }
 footer nav {
   width: 50%;
