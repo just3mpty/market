@@ -1,8 +1,7 @@
 form {
-    display: flex;
     /* Uniquement centrer le formulaire sur la page */
     margin: 0 auto;
-    width: 600px;
+    width: 400px;
     /* Encadré pour voir les limites du formulaire */
     padding: 1em;
     border: 1px solid #CCC;
