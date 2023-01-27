@@ -28,36 +28,30 @@
       <h1 itemprop="about">Cap' Store</h1>
     </header>
     <main itemscope itemtype="https://schema.org/WebPage">
-      <section itemscope itemtype="https://schema.org/Thing">
-        <aside itemprop="breadcrump">
-          <button></button>
-        </aside>
-        <img
-          itemprop="image"
-          src="./assets/img/keyboard.webp"
-          alt="Photo d'un clavier"
-        />
-        <img
-          itemprop="image"
-          src="./assets/img/laptop.webp"
-          alt="Photo d'un ordinateur portable"
-        />
-        <img
-          itemprop="image"
-          src="./assets/img/mouse.webp"
-          alt="Photo d'une souris d'ordinateur"
-        />
-        <img
-          itemprop="image"
-          src="./assets/img/pc.webp"
-          alt="Photo d'une unité centrale"
-        />
-        <img
-          itemprop="image"
-          src="./assets/img/screen.webp"
-          alt="Photo d'un écran d'ordinateur"
-        />
-      </section>
+      <div class="container">
+        <div class="carousel">
+          <div class="slider">
+            <section class="firstSection"></section>
+            <section class="secondSection"></section>
+            <section class="thirdSection"></section>
+            <section class="fourthSection"></section>
+          </div>
+          <div class="controls">
+            <span class="arrow left"
+              ><img src="./assets/img/icons/arrow.svg" alt="Previous"
+            /></span>
+            <span class="arrow right"
+              ><img src="./assets/img/icons/arrow.svg" alt="Next"
+            /></span>
+            <ul>
+              <li class="selected"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <p itemprop="description">
         Le chantier répond aux besoins du territoire en terme de matériel
         informatique reconditionné. Avec une moyenne de 400 matériels complets
@@ -73,6 +67,7 @@
         encore rédiger leurs C.V. et lettres de motivation.
       </p>
       <section id="video" itemscope itemtype="https://schema.org/Clip">
+        <h2>Actualité</h2>
         <iframe
           itemprop="video"
           width="560"
