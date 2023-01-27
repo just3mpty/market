@@ -7,19 +7,27 @@ main {
 article {
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     width: 80%;
     margin: 2em;
-    padding: 0;
+    padding: 1em 1.5em;
+    background-color: #242423df;
+    color: whitesmoke;
+    box-shadow: 2px 2px 6px rgb(76, 75, 75);
+    transition: 0.4s;
+    height: 15em;
+}
 
+article:hover {
+    transform: scale(1.04);
 }
 
 h3[itemprop="description"] {
     width: 25%;
 }
 
-img[src="../assets/img/keyboard.webp"] {
+/* img[src="../assets/img/keyboard.webp"] {
     width: 10vw;
 }
 
@@ -38,4 +46,43 @@ img[src="../assets/img/mouse.webp"] {
 img[src="../assets/img/pc.webp"] {
     width: 10vw;
 
+} */
+
+#uc p {
+    width: fit-content;
+}
+
+#uc div {
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgb(118, 118, 118);
+}
+
+.clavier {
+    height: 95%;
+    width: 15em;
+    background: url(../assets/img/keyboard.webp) no-repeat center/cover;
+}
+
+.screen {
+    height: 95%;
+    width: 15em;
+    background: url(../assets/img/screen.webp) no-repeat center/cover;
+}
+
+.laptop {
+    height: 95%;
+    width: 15em;
+    background: url(../assets/img/laptop.webp) no-repeat center/cover;
+}
+
+.mouse {
+    height: 95%;
+    width: 15em;
+    background: url(../assets/img/mouse.webp) no-repeat center/cover;
+}
+
+.pc {
+    height: 95%;
+    width: 15em;
+    background: url(../assets/img/pc.webp) no-repeat center/cover;
 }
