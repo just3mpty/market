@@ -1,0 +1,12 @@
+main[itemtype="https://schema.org/WebPage"]
+{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+section[itemtype="https://schema.org/Thing"] img
+{
+  border: 2px solid red;
+  width: 5vw;
+}
