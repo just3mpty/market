@@ -10,7 +10,7 @@ body {
   font-family: "Raleway", verdana;
   background: url(./assets/img/background.webp) center/cover;
 }
-img[src="./assets/img/icons/store_FILL0_wght400_GRAD0_opsz48.svg"] {
+img[src="../../assets/img/icons/store_FILL0_wght400_GRAD0_opsz48.svg"] {
   filter: invert(1);
   transition: 0.4s;
   animation: 1s rotation cubic-bezier(0.29, 0.79, 0.31, 0.2);
@@ -109,7 +109,7 @@ figure {
     opacity: 1;
   }
 }
-img[src="./assets/img/keyboard.webp"] {
+img[src="../../assets/img/keyboard.webp"] {
   width: 20vw;
   border-radius: 10px;
   box-shadow: 0 2px 5px hsla(120, 2%, 20%, 0.5);
