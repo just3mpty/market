@@ -9,10 +9,9 @@ main[itemtype="https://schema.org/WebPage"]
 
 .container {
   width: 85%;
+  height: fit-content;
   margin: 1.5em auto;
-  padding: 1em 0;
   border-radius: 20px;
-  border: 1px solid red;
   transition: all 0.4s ease-in-out;
 }
 .carousel {
@@ -22,13 +21,14 @@ main[itemtype="https://schema.org/WebPage"]
   position: relative;
 }
 .slider {
-  height: 100%;
   display: flex;
+  height: 100%;
   width: 400%;
   transition: all 0.6s;
 }
 .slider section {
   flex-basis: 100%;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,11 +41,12 @@ main[itemtype="https://schema.org/WebPage"]
   background: url(../assets/img/laptop.webp) no-repeat center/cover;
 }
 .thirdSection {
-  background: url(../assets/img/logo_lacapsule.webp) no-repeat center/cover;
+  background: url(../assets/img/screen.webp) no-repeat center/cover;
 }
 .fourthSection {
   background: url(../assets/img/mouse.webp) no-repeat center/cover;
 }
+
 .controls .arrow {
   position: absolute;
   top: 50%;
@@ -54,10 +55,12 @@ main[itemtype="https://schema.org/WebPage"]
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0.5em;
+  margin: 0 2em;
+  border-radius: 50%;
 }
 .arrow.left {
   left: 0px;
-  height: 100%;
   width: 50px;
   transition: 0.3s ease-in-out;
 }
@@ -66,13 +69,16 @@ main[itemtype="https://schema.org/WebPage"]
 }
 .arrow.right {
   right: 0px;
-  height: 100%;
   width: 50px;
   transition: 0.3s ease-in-out;
 }
 .arrow.left:hover,
 .arrow.right:hover {
-  background: hsl(60, 1%, 14%);
+  background: hsla(60, 1%, 14%, 0.75);
+}
+.arrow.left:hover img,
+.arrow.right:hover img {
+  filter: invert(1);
 }
 .controls ul {
   position: absolute;
