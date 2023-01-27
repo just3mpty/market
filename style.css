@@ -1,30 +1,36 @@
 @import "./styles/normalize\ css";
 @import "./css/claviers.css";
 @import "./css/home.css";
+@import "./css/catalogue.css";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
 
 body {
   display: flex;
   flex-flow: column nowrap;
-  height: 100vh;
+  height: auto;
   margin: 0;
   padding: 0;
   font-family: "Raleway", verdana;
   background: url(./assets/img/background.webp) center/cover;
 }
+
 #logo {
   width: 3em;
   transition: 0.4s;
   animation: 1s rotation cubic-bezier(0.17, 0.67, 0.83, 0.44);
 }
+
 @keyframes rotation {
   from {
     transform: rotate(-360deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 header {
   display: flex;
   align-items: center;
@@ -37,9 +43,11 @@ header {
   padding: 0 1.5em;
   z-index: 1;
 }
+
 header nav[itemprop="breadcrump"] {
   width: 50%;
 }
+
 ul {
   display: flex;
   flex-flow: row nowrap;
@@ -48,6 +56,7 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 li {
   list-style-type: none;
 }
@@ -64,35 +73,43 @@ footer {
   background: #242423;
   box-shadow: 0 -2px 6px #242423;
 }
+
 footer nav {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 a {
   color: whitesmoke;
   text-decoration: none;
   font-size: 1.2em;
   transition: 0.4s;
 }
+
 a:hover {
   text-decoration: underline;
   text-underline-position: under;
 }
+
 @media screen and (max-width: 700px) {
   main {
     flex-direction: column;
   }
+
   section {
     width: 75%;
   }
+
   article {
     width: 75%;
   }
+
   img[src="./assets/img/keyboard.webp"] {
     width: 40vw;
   }
+
   aside {
     width: 100%;
     height: 2vh;

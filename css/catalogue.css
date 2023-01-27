@@ -3,3 +3,39 @@ main {
     flex-direction: column;
     width: auto;
 }
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2em;
+    padding: 0;
+
+}
+
+h3[itemprop="description"] {
+    width: 25%;
+}
+
+img[src="../assets/img/keyboard.webp"] {
+    width: 10vw;
+}
+
+img[src="../assets/img/screen.webp"] {
+    width: 10vw;
+}
+
+img[src="../assets/img/laptop.webp"] {
+    width: 10vw;
+}
+
+img[src="../assets/img/mouse.webp"] {
+    width: 10vw;
+}
+
+img[src="../assets/img/pc.webp"] {
+    width: 10vw;
+
+}
