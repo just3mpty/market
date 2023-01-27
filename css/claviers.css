@@ -7,30 +7,6 @@ main {
   height: 100%;
   backdrop-filter: blur(5px);
 }
-aside {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 1em;
-  padding: 1em;
-  width: 1em;
-  border-radius: 50%;
-  background: hsla(120, 2%, 20%, 0.5);
-}
-button {
-  background: url(./assets/img/icons/arrow.svg) no-repeat center/cover;
-  filter: invert(1);
-  width: 2vw;
-  height: 2vw;
-  border: none;
-}
-.left {
-  transform: rotate(180deg);
-}
-aside,
-button:hover {
-  cursor: pointer;
-}
 section {
   display: flex;
   align-items: center;
