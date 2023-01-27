@@ -7,9 +7,6 @@ main[itemtype="https://schema.org/WebPage"]
 }
 section[itemtype="https://schema.org/Thing"]
 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   width: 100%;
   background: #3c3c3c;
   margin: 0;
