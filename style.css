@@ -6,11 +6,11 @@
 body {
   display: flex;
   flex-flow: column nowrap;
-  height: 100vh;
+  height: auto;
   margin: 0;
   padding: 0;
   font-family: "Raleway", verdana;
-  background: url(./assets/img/background.webp) center/cover;
+  background: url(./assets/img/background.webp) no-repeat center/cover;
 }
 #logo {
   width: 3em;
