@@ -1,9 +1,10 @@
 main[itemtype="https://schema.org/WebPage"]
 {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 section[itemtype="https://schema.org/Thing"]
 {
@@ -13,13 +14,27 @@ section[itemtype="https://schema.org/Thing"]
   margin-top: 1em;
   padding: 0;
 }
+
 section[itemtype="https://schema.org/Thing"] img
 {
-  border: 2px solid red;
-  width: 5vw;
+  width: 10vw;
 }
 aside[itemprop="breadcrump"] {
   margin: 0;
   padding: 0;
   width: fit-content;
+}
+p {
+  width: 50%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  font-weight: bold;
+  line-height: 2em;
+}
+#video {
+  width: 100%;
+  border: 1px solid red;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
 }
