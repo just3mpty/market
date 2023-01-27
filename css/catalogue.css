@@ -12,7 +12,8 @@ article {
     width: 80%;
     margin: 2em;
     padding: 1em 1.5em;
-    background-color: hsla(0, 0%, 74%);
+    background-color: #242423df;
+    color: whitesmoke;
     box-shadow: 2px 2px 6px rgb(76, 75, 75);
     transition: 0.4s;
     height: 15em;
@@ -49,6 +50,11 @@ img[src="../assets/img/pc.webp"] {
 
 #uc p {
     width: fit-content;
+}
+
+#uc div {
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px rgb(118, 118, 118);
 }
 
 .clavier {
