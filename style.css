@@ -12,7 +12,7 @@ body {
   font-family: "Raleway", verdana;
   background: url(./assets/img/background.webp) center/cover;
 }
-img[src="../../assets/img/icons/store_FILL0_wght400_GRAD0_opsz48.svg"] {
+#logo {
   filter: invert(1);
   transition: 0.4s;
   animation: 1s rotation cubic-bezier(0.29, 0.79, 0.31, 0.2);
