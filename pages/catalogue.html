@@ -1,81 +1,116 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/img/logo_lacapsule.webp" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Catalogue</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="../assets/img/logo_lacapsule.webp" />
-  <link rel="stylesheet" href="../style.css" />
-  <title>Catalogue</title>
-</head>
+  <body>
+    <header itemscope itemtype="https://schema.org/WebPage">
+      <img
+        itemprop="image"
+        src="../assets/img/logo_lacapsule.webp"
+        id="logo"
+        alt="Logo de la marque"
+      />
+      <nav itemprop="breadcrump">
+        <ul>
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="./catalogue.html">Catalogue</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./panier.html">Panier</a></li>
+        </ul>
+      </nav>
+      <h1 itemprop="about">Cap' Store</h1>
+    </header>
+    <main id="uc" itemscope itemtype="https://schema.org/Thing" itemid="#thing">
+      <div class="container">
+        <article
+          itemscope
+          itemtype="https://schema.org/IndividualProduct"
+          itemid="#product"
+        >
+          <!-- <img itemprop="image" src="../assets/img/keyboard.webp" alt="Clavier"> -->
+          <div class="clavier"></div>
+          <h2 itemprop="name">Clavier</h2>
+          <h3 itemprop="description">Description</h3>
+          <p itemprop="price">20€</p>
+        </article>
 
-<body>
-  <header itemscope itemtype="https://schema.org/WebPage">
-    <img itemprop="image" src="../assets/img/logo_lacapsule.webp" id="logo" alt="Logo de la marque" />
-    <nav itemprop="breadcrump">
-      <ul>
-        <li><a href="../index.html">Accueil</a></li>
-        <li><a href="./catalogue.html">Catalogue</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-        <li><a href="./panier.html">Panier</a></li>
-      </ul>
-    </nav>
-    <h1 itemprop="about">Cap' Store</h1>
-  </header>
-  <main id="uc" itemscope itemtype="https://schema.org/Thing" itemid="#thing">
-    <article itemscope itemtype="https://schema.org/IndividualProduct" itemid="#product">
-      <!-- <img itemprop="image" src="../assets/img/keyboard.webp" alt="Clavier"> -->
-      <div class="clavier"></div>
-      <h2 itemprop="name">Claviers</h2>
-      <h3 itemprop="description">Description</h3>
-      <p itemprop="price">20€</p>
-    </article>
+        <article
+          itemscope
+          itemtype="https://schema.org/IndividualProduct"
+          itemid="#product"
+        >
+          <!-- <img itemprop="image" src="../assets/img/screen.webp" alt="Ecrans"> -->
+          <div class="screen"></div>
+          <h2 itemprop="name">Ecran</h2>
+          <h3 itemprop="description">Description</h3>
+          <p itemprop="price">20€</p>
+        </article>
 
-    <article itemscope itemtype="https://schema.org/IndividualProduct" itemid="#product">
-      <!-- <img itemprop="image" src="../assets/img/screen.webp" alt="Ecrans"> -->
-      <div class="screen"></div>
-      <h2 itemprop="name">Ecrans</h2>
-      <h3 itemprop="description">Description</h3>
-      <p itemprop="price">20€</p>
-    </article>
+        <article
+          itemscope
+          itemtype="https://schema.org/IndividualProduct"
+          itemid="#product"
+        >
+          <!-- <img itemprop="image" src="../assets/img/laptop.webp" alt="PC portable"> -->
+          <div class="laptop"></div>
+          <h2 itemprop="name">PC portable</h2>
+          <h3 itemprop="description">Description</h3>
+          <p itemprop="price">60€</p>
+        </article>
 
-    <article itemscope itemtype="https://schema.org/IndividualProduct" itemid="#product">
-      <!-- <img itemprop="image" src="../assets/img/laptop.webp" alt="PC portable"> -->
-      <div class="laptop"></div>
-      <h2 itemprop="name">PC portable</h2>
-      <h3 itemprop="description">Description</h3>
-      <p itemprop="price">60€</p>
-    </article>
+        <article
+          itemscope
+          itemtype="https://schema.org/IndividualProduct"
+          itemid="#product"
+        >
+          <!-- <img itemprop="image" src="../assets/img/mouse.webp" alt="Souris"> -->
+          <div class="mouse"></div>
+          <h2 itemprop="name">Souris</h2>
+          <h3 itemprop="description">Description</h3>
+          <p itemprop="price">20€</p>
+        </article>
 
-    <article itemscope itemtype="https://schema.org/IndividualProduct" itemid="#product">
-      <!-- <img itemprop="image" src="../assets/img/mouse.webp" alt="Souris"> -->
-      <div class="mouse"></div>
-      <h2 itemprop="name">Souris</h2>
-      <h3 itemprop="description">Description</h3>
-      <p itemprop="price">20€</p>
-    </article>
-
-    <article itemscope itemtype="https://schema.org/IndividualProduct" itemid="#product">
-      <!-- <img itemprop="image" src="../assets/img/pc.webp" alt="Unitées Centrales"> -->
-      <div class="pc"></div>
-      <h2 itemprop="name">Unitées Centrales</h2>
-      <h3 itemprop="description">Description</h3>
-      <p itemprop="price">60€</p>
-    </article>
-
-  </main>
-  <footer itemscope itemtype="https://schema.org/WebPage">
-    <h5 itemprop="description">
-      Tout nos matériels sont issus de récupérations ou dons reconditionnés
-      par nos équipes.
-    </h5>
-    <nav itemtype="breadcrump">
-      <a href="cgu.html" title="Conditions générales d'utilisation">CGU</a>
-      <a href="cgv.html" title="Conditions générales de vente">CGV</a>
-      <a href="Mentions.html" title="Mentions légales">Mentions légales</a>
-    </nav>
-  </footer>
-</body>
-
+        <article
+          itemscope
+          itemtype="https://schema.org/IndividualProduct"
+          itemid="#product"
+        >
+          <!-- <img itemprop="image" src="../assets/img/pc.webp" alt="Unitées Centrales"> -->
+          <div class="pc"></div>
+          <h2 itemprop="name">Unitée Centrale</h2>
+          <h3 itemprop="description">Description</h3>
+          <p itemprop="price">60€</p>
+        </article>
+        <article
+          itemscope
+          itemtype="https://schema.org/IndividualProduct"
+          itemid="#product"
+        >
+          <!-- <img itemprop="image" src="../assets/img/pc.webp" alt="Unitées Centrales"> -->
+          <div class="pack"></div>
+          <h2 itemprop="name">Pack complet</h2>
+          <h3 itemprop="description">Description</h3>
+          <p itemprop="price">100€</p>
+        </article>
+      </div>
+    </main>
+    <footer itemscope itemtype="https://schema.org/WebPage">
+      <h5 itemprop="description">
+        Tout nos matériels sont issus de récupérations ou dons reconditionnés
+        par nos équipes.
+      </h5>
+      <nav itemtype="breadcrump">
+        <a href="cgu.html" title="Conditions générales d'utilisation">CGU</a>
+        <a href="cgv.html" title="Conditions générales de vente">CGV</a>
+        <a href="Mentions.html" title="Mentions légales">Mentions légales</a>
+      </nav>
+    </footer>
+  </body>
 </html>
