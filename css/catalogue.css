@@ -1,13 +1,14 @@
 main {
   display: flex;
   flex-flow: column;
+  padding: 0;
   width: auto;
 }
 
 #uc .container {
   width: 85%;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   align-items: center;
   background: rgba(245, 245, 245, 0.7);
 }
@@ -46,8 +47,17 @@ h3[itemprop="description"] {
     border: 1px solid red;
   }
   article div {
-    border: 1px solid green;
-    height: 150px;
+    display: none;
+  }
+  #logo {
+    width: 0.5em;
+  }
+  h1 {
+    display: none;
+    height: 25vh;
+  }
+  nav {
+    width: 100%;
   }
 }
 
